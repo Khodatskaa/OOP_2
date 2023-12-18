@@ -1,13 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Book">
+      <UniqueIdentifier>{66c818ed-6b6a-45ea-b719-dd255db57068}</UniqueIdentifier>
+    </Filter>
     <Filter Include="SourceFiles">
-      <UniqueIdentifier>{14de2b64-d68d-4563-965c-a74ad33a09f5}</UniqueIdentifier>
+      <UniqueIdentifier>{80b2720a-d107-4ee0-9b0d-f0628345135f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Book\Book.cpp">
+      <Filter>Book</Filter>
+    </ClCompile>
+    <ClCompile Include="Book\main.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Book\Book.h">
+      <Filter>Book</Filter>
+    </ClInclude>
+    <ClInclude Include="Book\main.h" />
   </ItemGroup>
 </Project>
