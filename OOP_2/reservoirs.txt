@@ -1,0 +1,14 @@
+Reservoir Name: Lake1
+Width: 50 meters
+Length: 100 meters
+Max Depth: 5 meters
+Approximate Volume: 25000 cubic meters
+Water Surface Area: 5000 square meters
+------------------------
+Reservoir Name: Pond1
+Width: 10 meters
+Length: 20 meters
+Max Depth: 2 meters
+Approximate Volume: 400 cubic meters
+Water Surface Area: 200 square meters
+------------------------
