@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Reservoir.cpp" />
+    <ClCompile Include="SourceFile\main.cpp" />
+    <ClCompile Include="Reservoir\Reservoir.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Reservoir.h" />
+    <ClInclude Include="Reservoir\Reservoir.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
